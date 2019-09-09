@@ -1,0 +1,44 @@
+{
+  "name": "feedrent-blockchain-hackathon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "author": {
+    "name": "FeedRent"
+  },
+  "scripts": {
+    "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
+    "build": "tsc --p tsconfig.json --outDir ./build",
+    "prestart": "npm run build",
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "Real Estate",
+    "Offirent",
+    "Tezos",
+    "Hackathon"
+  ],
+  "engines": {
+    "npm": "5.7.1",
+    "node": "11.4.0"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.5",
+    "@types/express": "^4.16.1",
+    "@types/node": "^9.6.5",
+    "@types/pg": "^7.4.14",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.21.0",
+    "livr": "^2.2.5",
+    "pg": "^7.11.0",
+    "pg-query-stream": "^2.0.0",
+    "reflect-metadata": "^0.1.12",
+    "ts-node": "3.3.0",
+    "tslint": "^5.16.0",
+    "typeorm": "^0.2.15",
+    "typescript": "^3.3.3333",
+    "conseiljs": "^0.2.9"
+  }
+}
