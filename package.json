@@ -37,7 +37,7 @@
     "reflect-metadata": "^0.1.12",
     "ts-node": "3.3.0",
     "tslint": "^5.16.0",
-    "typeorm": "^0.2.15",
+    "typeorm": "^0.2.25",
     "typescript": "^3.3.3333",
     "conseiljs": "^0.2.9"
   }
